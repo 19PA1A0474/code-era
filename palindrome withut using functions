@@ -1,0 +1,60 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMSfYIRdQUR0i4N50vrNoos",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/19PA1A0474/code-era/blob/master/palindrome%20withut%20using%20functions\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "id": "g6jHyjXhQYgR",
+        "colab_type": "code",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 51
+        },
+        "outputId": "49fbfd46-1390-4afc-a113-b719f3cb7ca2"
+      },
+      "source": [
+        "x=\"madam\"\n",
+        "y=x[::-1]\n",
+        "print(y)\n",
+        "if x==y:\n",
+        "    print('is palindrome')\n",
+        "else:\n",
+        "    print('not palindrome')"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "madam\n",
+            "is palindrome\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
